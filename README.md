@@ -79,7 +79,7 @@ Kod 8 karakterden oluşmaktadır. Pattern şu şekildedir:
 
 0-) Programdan çıkış.
 
-Notlar:
+Notlar:   
     * Kod üretirken random yapısı kullanılmıştır. Üretilecek kodun listede olup olmadığı kontrol edilmiş ve buna göre yeniden random üretilmesi sağlanmıştır.   
     * Örnekte 1000 adet kod üretimi istendiği için farklı yapılar tercih edilmemiştir. Mevcut durumda teorik olarak sonsuz döngü ihtimali mevcuttur.   
     * Bu durumun önüne geçebilmek için karakterler ile tree oluşturulabilir ve backtracking methodu kullanan recursive bir fonksiyon hazırlanabilir fakat bu fonksiyon bellek kullanımını arttıracak ve performans kaybına sebep olacaktır. 1000 adet gibi bir sayıda bu yaklaşıma gidilmemiş ve random üretilen kodun listede bulunup bulunmadığı kontrol edilmiştir. Eğer üretilen kod mevcutsa tekrar random kod üretilmesi sağlanmıştır.
