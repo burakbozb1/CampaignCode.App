@@ -146,7 +146,7 @@ namespace CampaignCode.App
                 int patternCounter = 0;
                 for (int i = 0; i < patterns[counter].Length; i++)
                 {
-                    if (Convert.ToByte(patterns[counter][i].ToString()) == HelperFunctions.GetTypeOfChar(key[i], charModels))
+                    if (Convert.ToByte(patterns[counter][i].ToString()) == GetTypeOfChar(key[i], charModels))
                     {
                         patternCounter++;
                     }
@@ -162,6 +162,12 @@ namespace CampaignCode.App
                 counter++;
             }
             return control;
+        }
+
+        public static byte GetTypeOfChar(char c, List<CharModel> charModels)
+        {
+            var type = charModels.Where(x => x.Char == c).Select(x => x.Property).Single();
+            return type;
         }
     }
 }

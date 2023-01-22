@@ -11,11 +11,6 @@ namespace CampaignCode.App
 {
     public static class HelperFunctions
     {
-        public static byte GetTypeOfChar(char c, List<CharModel> charModels)
-        {
-            var type = charModels.Where(x => x.Char == c).Select(x => x.Property).Single();
-            return type;
-        }
 
         public static long PossibilityCalculator(List<string> patterns, List<CharModel> myCharacters)
         {

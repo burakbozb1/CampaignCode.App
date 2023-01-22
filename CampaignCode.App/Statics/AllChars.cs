@@ -14,6 +14,5 @@ namespace TestingProject
         public static string numbers = "1234567890";
         public static string specialCharacters = @".:,;/*-+!'^%&/()=?_-\}][{½$#£><@|";
         public static string allCharacters = consonants + vovels + numbers + specialCharacters;
-
     }
 }
