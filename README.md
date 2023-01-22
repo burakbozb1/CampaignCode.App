@@ -5,7 +5,7 @@ Kodun kaç karakterli olacağı seçilebilir.
 Kodun karakter setinin yapısı değiştirilebilir ve bu yapıdan çok sayıda üretilebilir.  
 Kod içerisinde kullanılan karakterlerin tipleri belirlenebilir (Sesli harf, sessiz harf, rakam ve özel karakter). Bu sayede farklı yapılarda kodlar üretilebilir.  
 
-Statik olarak karakterler tiplerine göre sisteme tanıtılmıştır. Bu tipler sessiz harfler, sesli harfler, rakamlar, özel karakterlerdir.  
+Statik olarak karakterler, tiplerine göre sisteme tanıtılmıştır. Bu tipler sessiz harfler, sesli harfler, rakamlar, özel karakterlerdir.  
   
 ```csharp
 public static class AllChars
