@@ -164,6 +164,12 @@ namespace CampaignCode.App
             return control;
         }
 
+        /// <summary>
+        /// Girilen karakterin tipini döndürür.
+        /// </summary>
+        /// <param name="c"></param>
+        /// <param name="charModels"></param>
+        /// <returns></returns>
         public static byte GetTypeOfChar(char c, List<CharModel> charModels)
         {
             var type = charModels.Where(x => x.Char == c).Select(x => x.Property).Single();
