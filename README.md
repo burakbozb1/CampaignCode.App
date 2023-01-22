@@ -57,7 +57,7 @@ Console.WriteLine("e: Kullanım klavuzu");
 Console.WriteLine("0: Çıkış");
 ```      
     
-Menü:
+### Menü:   
 1-) PDF'deki örnek üzerinden gidilmiştir. 1 adet pattern ile 1000 adet kod üretilecektir.   
 Kod 8 karakterden oluşmaktadır. Pattern şu şekildedir:   
   SesliHarf - SessizHarf - Rakam - SesliHarf - SesliHarf - SessizHarf - SessizHarf - Rakam    
